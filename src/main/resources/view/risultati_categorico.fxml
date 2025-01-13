@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:id="pannello" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="885.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.controllers.Controller_ris_categorico">
+   <children>
+      <Label alignment="CENTER" layoutY="17.0" prefHeight="35.0" prefWidth="885.0" text="Risultati voto categorico">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_numeroVotanti" layoutX="47.0" layoutY="81.0" prefHeight="20.0" prefWidth="692.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="155.0" prefHeight="20.0" prefWidth="337.0" text="Numero di voti ottenuti da ciascun partito/candidato:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_tipoVittoria" layoutX="47.0" layoutY="115.0" prefHeight="20.0" prefWidth="692.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_infoVincitore" alignment="CENTER" layoutY="581.0" prefHeight="30.0" prefWidth="885.0" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="bottone" layoutX="385.0" layoutY="637.0" mnemonicParsing="false" onAction="#premi_bottone" prefHeight="44.0" prefWidth="115.0" text="Button" />
+   </children>
+</Pane>

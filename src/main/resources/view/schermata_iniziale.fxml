@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.controllers.Controller_iniziale">
+   <children>
+      <Button layoutX="98.0" layoutY="139.0" mnemonicParsing="false" onAction="#premi_elettore" prefHeight="57.0" prefWidth="158.0" text="Accedi come elettore" />
+      <Button layoutX="98.0" layoutY="221.0" mnemonicParsing="false" onAction="#premi_admin" prefHeight="57.0" prefWidth="184.0" text="Accedi come amministratore" />
+      <Label layoutX="91.0" layoutY="39.0" text="Benvenuti al sistema di voto elettronico">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

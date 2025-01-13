@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.controllers.Controller_quesito_referendum">
+   <children>
+      <Label alignment="CENTER" layoutY="62.0" prefHeight="17.0" prefWidth="600.0" text="Imposta il quesito del referendum">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="quesito" layoutX="109.0" layoutY="82.0" prefHeight="152.0" prefWidth="384.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="247.0" layoutY="283.0" mnemonicParsing="false" onAction="#premi_apri_sessione" prefHeight="41.0" prefWidth="108.0" text="Apri sessione" />
+      <Label fx:id="lbl_errore" alignment="CENTER" layoutX="-1.0" layoutY="360.0" prefHeight="17.0" prefWidth="600.0" />
+   </children>
+</Pane>

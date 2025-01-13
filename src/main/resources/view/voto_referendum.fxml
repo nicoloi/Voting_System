@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.controllers.Controller_voto_referendum">
+   <children>
+      <Button layoutX="106.0" layoutY="338.0" mnemonicParsing="false" onAction="#premi_si" prefHeight="51.0" prefWidth="68.0" text="SI" />
+      <Button layoutX="443.0" layoutY="338.0" mnemonicParsing="false" onAction="#premi_no" prefHeight="51.0" prefWidth="68.0" text="NO" />
+      <Label fx:id="lbl_quesito" alignment="TOP_LEFT" layoutX="33.0" layoutY="85.0" prefHeight="184.0" prefWidth="575.0" wrapText="true" />
+      <Label alignment="CENTER" layoutY="27.0" prefHeight="17.0" prefWidth="632.0" text="REFERENDUM">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="275.0" layoutY="422.0" mnemonicParsing="false" onAction="#premi_scheda_bianca" text="Scheda bianca" />
+   </children>
+</Pane>
